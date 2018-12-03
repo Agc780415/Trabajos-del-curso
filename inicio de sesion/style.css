@@ -1,0 +1,113 @@
+.cuadrado{
+  position:absolute;
+  right: 32%;
+  bottom:2%;
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  border: solid;
+  border-color: #727272;
+  border-width: 1px;
+  }
+
+.logo{
+  position:relative;
+  right: -38%;
+  bottom: -2%;
+}
+
+.titulo{
+  position:relative;
+  right: -12%;
+  font-family:Futura LT BT;
+  color: #727272;
+  font-size: 35px;
+}
+
+.inisec{
+  position:relative;
+  right: -19%;
+  font-family:Futura LT BT;
+  color: #727272;
+  font-size: 20px;
+}
+.cuadrado2{
+  position:absolute;
+  right:10%;
+  bottom:17%;
+  background-color: #f0f0f0;
+  width: 400px;
+  height: 300px;
+  -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  filter: shadow(color=#999999, direction=135, strength=2);
+
+
+}
+
+.logosesion{
+  position:absolute;
+  bottom:17%;
+  width: 80px;
+  height:80px;
+  right:42%;
+  bottom: 50%;
+
+}
+
+.buscador
+  {position: relative;
+  top:20%;
+  left:20%;
+ }
+
+ .buscadorr{
+   width: 300px;
+   height: 35px;
+   color:#727272;
+ }
+
+ .boton-personalizado
+  {background-color: #4F91ED;
+    color:#FFFFFF;
+    text-decoration: none;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 2px;
+}
+
+.bot5
+ {font-size: 14px;
+ text-decoration: none;
+ color: #4F91ED;
+ position: absolute;
+ bottom: -36px;
+ left: 185px;
+}
+
+.bot3{font-size: 14px;
+text-decoration: none;
+color: #4F91ED;
+position: absolute;
+bottom:80px;
+left: 215px;}
+
+.herramientas{
+  position: absolute;
+  bottom: 26px;
+  left: 12px;
+  font-family:Futura LT BT;
+  text-align: center;
+  color:#727272;
+  font-size: 16px;
+  margin-left: 22px;
+  margin-right: 35px;
+}
+
+.logos{
+  position: absolute;
+  bottom: 26px;
+  left: 610px;
+}

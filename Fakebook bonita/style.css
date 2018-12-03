@@ -1,0 +1,99 @@
+body {
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: white; /*#f2f2f2;*/
+	font-size: 1em;
+	line-height: 1.5em;
+}
+/*.contenedor {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.contenido {
+display: inline-block;
+max-width: 400px;
+text-align: center;
+}*/
+h1 {
+  font-family: Klavika;
+color: white;
+	font-size: 2.5em;
+	line-height: 2.0em;
+	margin-left: 160px;
+	margin-top: auto;
+	text-align: left;
+}
+h2 {font-family: Helvetica, Arial, sans-serif;
+color: #666;
+font-size: 0.9em;
+line-height: 2.0em;
+margin-left: 245px;
+margin-top: -57px;
+text-align: left;
+}
+.boton
+  {margin-left:245px;
+	 margin-top: -24px;
+	 }
+.bot
+  {font-size: 12px;
+   /*margin-left:245px;
+	 margin-top: -85px;*/
+	 color: blue;
+	 text-decoration: none;
+   }
+.ok {margin-left:142px;
+     margin-top: -24px;}
+#a {list-style-image: url("https://i.ibb.co/nLLJYYD/list-world.gif");}
+#b {list-style-image: url("https://i.ibb.co/nzG7r71/note.gif");}
+#c {list-style-image: url("https://i.ibb.co/VL385zw/calendar.gif");}
+#d {list-style-image: url("https://i.ibb.co/GQTzzHb/list-users.gif");}
+hr {margin-left: 160px; margin-right: 74%; background-color: #EEEEEE; border-color: #EEEEEE; height: 1px;}
+.ok1 {margin-left:142px;
+     margin-top: -24px;
+	   font-size: 0.7em;}
+		 #e {list-style-image: url("https://i.ibb.co/6tVYxTQ/list-extensions.gif")}
+		 #f {list-style-image: url("https://i.ibb.co/FKjTBkK/page.gif");}
+		 #g {list-style-image: url("https://i.ibb.co/VL385zw/calendar.gif");}
+		 #h {list-style-image: url("https://i.ibb.co/J7yc73m/user.gif");}
+		 #i {list-style-image: url("https://i.ibb.co/fHbsqbz/bandera.gif");}
+		 #j {list-style-image: url("https://i.ibb.co/fHbsqbz/bandera.gif");}
+#faldon-superior {
+	background: #3B5998;
+	color: #3B5998;
+	height:75px;
+}
+	.center {
+		display: block;
+		margin-left: 160px;
+		margin-top: 0px;
+	}
+	#tabla1{
+	   border: 1px solid #1E679A;
+	   width: 760px;
+		 height: 410px;
+		 margin-left: 365px;
+		 margin-top: -430px;
+	}
+	#cabtab1{
+	   background-color: #1E679A;
+	   font-weight: bold;
+		 font-size: 0.7em;
+	   color: #ffffff;
+	   padding: 2 2 2 2px;
+
+	}
+	#cuerpotab1{
+	   padding: px;
+	   background-color:;
+		 	}
+	.botonn {background: none; color: #666; border: none; padding:0; font:Helvetica, Arial, sans-serif; cursor: pointer; font-size: 12px;}
+	.parrafos{ margin-left: 15px;	margin-top: auto;font-size: 0.7em;}
+	.cp{font-size: 14px;}
+	.bus{ margin-left: 15px;}
