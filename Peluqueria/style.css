@@ -1,0 +1,73 @@
+body{
+  background-image: url(https://i.ibb.co/mt1F3Rg/Peluquer-a-copia.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: grey;
+  }
+
+  .carousel{
+  width: 1000px;
+  margin-top: 20px;
+  display:flex;
+  align-items: center;
+  margin-left:auto; margin-right:auto;
+  }
+
+  .carousel-inner{
+width:700px;
+margin-left:auto; margin-right:auto;
+border: 10px;
+border-style:solid;
+border-color: white;
+}
+
+.tarjetas{
+width:98%;
+margin-bottom: 20px;
+}
+
+.imagen{
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  border-top:0px;
+  border-style:solid;
+  border-color: white;
+}
+.b{
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top:0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family:"Gabriola", cursive;
+  font-size: 40px;
+  color:#5C5C5C;
+}
+
+.c{
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top:0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family:"Gabriola", cursive;
+  font-size: 80px;
+  color: white;
+}
+.d{
+  font-family:"Gabriola", cursive;
+  font-size: 35px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
