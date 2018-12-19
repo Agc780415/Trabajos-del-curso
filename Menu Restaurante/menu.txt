@@ -1,3 +1,5 @@
-1, 2 EUR
-p, 3 EUR
-2, 2 EUR
+postre, 4,20 € EUR
+Segundo plato, 22,50 € EUR
+Entrantes, 4,50 € EUR
+cafe, 2,10 € EUR
+Primer plato, 6,20 € EUR
