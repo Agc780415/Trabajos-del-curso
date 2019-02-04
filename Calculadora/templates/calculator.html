@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Casio</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Casio</h1>
+
+    <form method="post">
+        <label>Numero 1</label>
+        <input type="text" name="numero1"  value="{{numero1}}">
+
+      <select name="operacion">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+
+        <label>Numero 2</label>
+        <input type="text" name="numero2" value="{{numero2}}">
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    {% if resultado %}
+        <h3>El resultado es {{ resultado }}</h3>
+    {% endif %}
+</body>
+</html>
