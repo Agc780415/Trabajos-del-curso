@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+     <title>{% block extra_title %}{% endblock extra_title %}Alain Gutiérrez</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <h1>{% block titulo %}{% endblock titulo %}</h1>
+
+    <div class="cornisa">
+        <a class="bot" href="/">Sobre mi</a>
+        <a class="bot" href="/proyectos">Proyectos</a>
+        <a class="bot" href="/blog">Blog</a>
+        <a class="bot" href="/contacto">Contacto</a>
+      </div>
+<div class="container-fluid">
+  {% block main_content %}{% endblock main_content %}
+</div>
+
+
+
+</body>
+</html>
