@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reseñas</title>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <h1>Reseñas Libro de visitas</h1>
+
+
+   <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Correo</th>
+      <th scope="col">Texto</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for resegna in resegnas %}
+    <tr>
+      <th scope="row">{{resegna.key.id()}}</th>
+      <td>{{resegna.contenidonombre}}</td>
+      <td>{{resegna.contenidocorreo}}</td>
+      <td>{{resegna.contenidotexto}}</td>
+    </tr>
+  {% endfor %}
+   </tbody>
+</table>
+
+   <br>
+   <a href="/" class="btn btn-primary">volver</a>
+
+ <script src="/static/js/bootstrap.js"></script>
+</body>
+</html>
